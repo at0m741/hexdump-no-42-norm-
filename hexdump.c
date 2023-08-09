@@ -56,7 +56,7 @@ int     main(int argc, char **argv)
     if (argc != 3)
     {
         printf("usage : %s <binary> <size>\n", argv[0]);
-        printf("no such file");
+        printf("no such file\n");
         return 1;
     }
     FILE *fptr;
