@@ -55,7 +55,7 @@ int     main(int argc, char **argv)
 {
     if (argc != 3)
     {
-        printf("usage : %s <binary> <size>", argv[0]);
+        printf("usage : %s <binary> <size>\n", argv[0]);
         printf("no such file");
         return 1;
     }
