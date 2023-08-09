@@ -69,7 +69,7 @@ int     main(int argc, char **argv)
     }
 
     fseek(fptr, 0, SEEK_END);
-    long filesize = ftell(fptr);
+    unsigned long filesize = ftell(fptr);
     fseek(fptr, 0, SEEK_SET);
     
     unsigned char *buffer = malloc(filesize);
